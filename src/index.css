@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.about-section {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/831/643/large_2x/gradient-pick-color-for-background-social-media-post-or-banner-best-combination-color-famous-color-combination-booth-backdrop-vintage-color-combination-free-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.web-dev-list,
+.known-languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.web-dev-list li,
+.known-languages-list li {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
+}
+.about-section {
+  padding: 80px 0;
+
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.web-dev-section,
+.known-languages-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.web-dev-list,
+.known-languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.web-dev-list li,
+.known-languages-list li {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .col-lg-6 {
+    margin-bottom: 30px;
+  }
+}
+img{
+  height: 190px;
+}
+.about-section {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.footer {
+
+  color: black;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  color: black;
+  margin-right: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+.home-section {
+  padding: 400px 0;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdIWDs5rsaaREwRizbrpHQIXB81VRhe8XB0hltM4japR3TdRIQ658ciFaBAitVPrbqk0&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Shadow, ui-rounded;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40), blink-caret 0.75s step-end infinite;/* Replace with desired font family */
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+.typing-cursor {
+  animation: blink-caret 0.75s step-end infinite;
+}
+.section-description {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif; /* Replace with desired font family */
+}
+
+.btn-primary {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif; /* Replace with desired font family */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.profile-image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 36px;
+  }
+
+  .section-description {
+    font-size: 20px;
+  }
+}
+.skills-list{
+  padding-left: 150px;
+}
+.about-title{
+  font-size: 120px;
+}
+.projects-section{
+  padding-top: 160px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/832/260/non_2x/gradient-pick-color-for-background-social-media-post-or-banner-best-combination-color-famous-color-combination-booth-backdrop-vintage-color-combination-free-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name{
+  font-family: typing;
+}

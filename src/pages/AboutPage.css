@@ -1,0 +1,23 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-image: url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89787.jpg');
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  height: 93.3vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: lightgray;
+  margin-bottom: 10px;
+}

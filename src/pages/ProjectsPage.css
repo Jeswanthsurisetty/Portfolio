@@ -1,0 +1,64 @@
+.projects-page {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://img.freepik.com/premium-photo/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.jpg');
+  background-size: 100% 100%;
+  justify-content: center;
+  height: 93.3vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 40px; /* Increase the margin-bottom to add a gap */
+  color: yellow;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 16px;
+}
+
+.project-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .project-list {
+    flex-wrap: wrap;
+  }
+  .project-item {
+    margin-bottom: 20px;
+  }
+}
